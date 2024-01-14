@@ -87,6 +87,7 @@ const Flower = () => {
                         type="number"
                         variant='bordered'
                         label="Quantity"
+                        defaultValue='1'
                         className="max-w-xs"
                     />
                 </div>
