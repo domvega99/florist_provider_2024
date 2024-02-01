@@ -8,9 +8,6 @@ export default function Home() {
   return (
     <div className=''>
       <div className='m-1 p-1'>
-        <Navbar/>
-      </div>
-      <div className='m-1 p-1'>
         <Search/>
       </div>
       <div className='m-1'>

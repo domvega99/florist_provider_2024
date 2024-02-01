@@ -19,6 +19,7 @@ const config: Config = {
         'customBlack': '#303231',
         'customPink' : '#F6AF9B',
         'bgcustomGray' : '#EEF2F6',
+        'bgcustomPink' : '#F2829A',
       },
     },
     

@@ -17,7 +17,7 @@ const Product = () => {
                         <img src={item.image} alt={item.name} className=' rounded-t-xl'/>
                         <div className=' absolute top-0 right-0 p-2 bg-gradient-to-tr from-pink-500 to-customPink rounded-full text-xs h-10 flex justify-between items-center text-white'>Sale</div>
                         <div className='text-white absolute cursor-pointer rounded-b-xl hover:opacity-50 bottom-0 p-1 w-full bg-gradient-to-tr from-pink-500 to-customPink'>
-                            <Link href='/cart/flowers' className='flex flex-col justify-center items-center'>
+                            <Link href='/flowers/wara' className='flex flex-col justify-center items-center'>
                                 <h1 className='text-sm'>Saturns Flower</h1>
                                 <div>
                                     <span className=' text-md font-semibold'>$39.99</span>
@@ -26,7 +26,6 @@ const Product = () => {
                             </Link>
                         </div>
                     </div>
-                    
                 </div>
             ))}
             </div>
